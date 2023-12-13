@@ -1,5 +1,5 @@
 {
-  "name": "api-sport-cli",
+  "name": "api-prono-poney-cli",
   "version": "0.0.4",
   "description": "CLI for api-sports.io",
   "main": "bin/index.js",
