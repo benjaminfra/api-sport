@@ -53,10 +53,14 @@ export function formatMatch(match: any, columns: Record<string, string>) {
   return Object.keys(columns).reduce((acc, key) => {
     const value = getValueByKey(match, columns[key]);
     if (!value && value !== 0) acc[key] = "NULL";
-    else
+    else if (typeof value === "number") {
+      acc[key] = value;
+    } else {
       acc[key] = `'${getValueByKey(match, columns[key])
         .toString()
         .replace(/'/g, "''")}'`;
+    }
+
     return acc;
   }, {} as any);
 }
