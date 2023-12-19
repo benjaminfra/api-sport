@@ -1,0 +1,15 @@
+{
+    "columns": {
+        "id": "team.id",
+        "name": "team.name",
+        "logo": "team.logo"
+    },
+    "leagues": {
+        "football": [
+            {
+                "league": 61,
+                "season": 2023
+            }
+        ]
+    }
+}

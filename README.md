@@ -7,9 +7,9 @@
 
 ```bash
 # NPX
-npx api-sport-cli
+npx api-prono-poney-cli
 # or install globally
-npm -g api-sport-cli
+npm -g api-prono-poney-cli
 
 ```
 
@@ -22,10 +22,12 @@ export SPORT_API_KEY=XXXX
 ```
 
 ```
-api-sport-cli <cmd> [args]
+api-prono-poney-cli <cmd> [args]
 
 Commands :
-  api-sport-cli get-matchs  Fetch matches from sport API
+  api-prono-poney-cli get-matchs  Fetch matches from sport API
+  api-prono-poney-cli get-teams   Fetch teams from sport API
+
 
 Options :
   --version                                             [boolean]
